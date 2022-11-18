@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    background-color: var(--black-eshop-btn-color);
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline-white {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
