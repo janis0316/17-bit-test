@@ -1,16 +1,47 @@
 .btn {
-    display: inline-block;
-    padding: 0.5em 0.8em;
     background-color: var(--black-eshop-btn-color);
-    color: var(--white-color);
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 600;
-    text-decoration: none;
     border: none;
+    color: var(--white-color);
     cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 5px 5px;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: var(--white-color);
+    box-shadow: 0 5px 10px rgba(10, 0, 0, 20%);
+    color: var(--text-color);
 }
 .btn-headline-white {
     background-color: var(--white-color);
     color: var(--text-color);
+}
+.btn-headline-white:hover {
+    background-color: var(--black-eshop-btn-color);
+    color: var(--white-color);
+}
+.btn-duk-dark-grey {
+    background-color: var(--grey-btn-color);
+    border-radius: 10px;
+    color: var(--white-color);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.btn-duk-dark-grey:hover {
+    background-color: var(--light-grey-btn-color);
+    color: var(--text-color);
+}
+.btn-duk-light-grey {
+    background-color: var(--light-grey-btn-color);
+    color: var(--text-color);
+}
+.btn-duk-light-grey:hover {
+    background-color: var(--grey-btn-color);
+    color: var(--white-color);
 }

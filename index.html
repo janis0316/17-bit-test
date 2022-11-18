@@ -11,13 +11,14 @@
 
 <body>
     <header>
-        logo
-        <a href="#">Pagrindinis</a>
-        <a href="#">Galerija</a>
-        <a href="#">Kainos</a>
+        <img class="logo-image" src="./images/logo.png" alt="Logo">
+        <div class="header-gaps">
+            <a class="header-link" href="#">Pagrindinis</a>
+            <a class="header-link" href="#">Galerija</a>
+            <a class="header-link" href="#">Kainos</a>
+        </div>
     </header>
     <section class="container container-headline">
-        <img class="hero-image" src="./images/hero.png" alt="Jeans image">
         <div class="text-on-img-center">
             <h1>headline</h1>
             <p>
@@ -38,11 +39,11 @@
             </div>
             <div class="col-third">
                 <img class="why-img" src="./images/why-img2.png" alt="Jeans image">
-                <div class="description">
+                <div class="description why-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                 </div>
             </div>
-            <div class="col-third">
+            <div class="col-third why-description">
                 <img class="why-img" src="./images/why-img3.png" alt="Jeans image">
                 <div class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -55,33 +56,42 @@
         <div class="row">
             <div class="col-one-half">
                 <h3>Lorem ipsum dolor sit amet.?</h3>
-                <div class="description">
+                <div class="description duk-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
                 </div>
             </div>
             <div class="col-one-half">
                 <h3>Lorem ipsum dolor sit amet.?</h3>
-                <div class="description">
+                <div class="description duk-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
+                </div>
+            </div>
+            <div class="col-one-half">
+                <h3>Lorem ipsum dolor sit amet.?</h3>
+                <div class="description duk-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
+                </div>
+            </div>
+            <div class="col-one-half">
+                <h3>Lorem ipsum dolor sit amet.?</h3>
+                <div class="description duk-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-one-half">
-                <h3>Lorem ipsum dolor sit amet.?</h3>
-                <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
-                </div>
-            </div>
-            <div class="col-one-half">
-                <h3>Lorem ipsum dolor sit amet.?</h3>
-                <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi culpa facilis.
-                </div>
-            </div>
-
+        <a class="btn btn-duk-dark-grey" href="#">Klauskite gyvai</a>
+        <a class="btn btn-duk-dark-grey btn-duk-light-grey" href="#">Susisiekite</a>
+    </section>
+    <hr class="line">
+    <section class="container">
+        <h2>NAUJIENLAIŠKIS</h2>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
-
+        <form>
+            <input class="email" type="email" name="email" placeholder="&#9993; El. paštas">
+            <button class="btn subscribe" type="submit">Prenumeruoti</button>
+        </form>
     </section>
 </body>
 

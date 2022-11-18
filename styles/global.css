@@ -13,11 +13,11 @@
 body,
 body * {
     box-sizing: border-box;
-    vertical-align: top;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    vertical-align: top;
 }
 body {
-    font-family: 'Iner', sans-serif;
     background-color: var(--white-background-color);
+    font-family: 'Iner', sans-serif;
 }
