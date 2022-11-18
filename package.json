@@ -1,0 +1,16 @@
+{
+    "name": "17-egzaminas",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "dead-server --port=4017 --host=localhost",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Laura",
+    "license": "ISC",
+    "devDependencies": {
+        "dead-server": "^1.0.9"
+    }
+}

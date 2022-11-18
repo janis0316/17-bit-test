@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+:root {
+    --black-eshop-btn-color: #141414;
+    --black-subscribe-btn-color: #121212;
+    --grey-btn-color: #414141;
+    --grey-footer-background-color: #ededed;
+    --grey-why-background-color: #f7f7f7;
+    --light-grey-btn-color: #f3f3f3;
+    --text-color: #000000;
+    --white-background-color: #f5f5f5;
+    --white-color: #ffffff;
+}
+body,
+body * {
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Iner', sans-serif;
+    background-color: var(--white-background-color);
+}
